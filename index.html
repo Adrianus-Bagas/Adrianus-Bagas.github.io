@@ -18,13 +18,13 @@
         <nav class="black darken-4">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="#home" class="brand-logo">Websiteku</a>
+                    <a href="#home" class="brand-logo">Adrianus Bagas</a>
                     <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#about">Profil</a></li>
                         <!-- <li><a href="#clients">Clients (mau dihapus)</a></li> -->
-                        <li><a href="#services">Hal yang Dikerjakan</a></li>
-                        <li><a href="#portfolio">Portofolio</a></li>
+                        <li><a href="#services">Skillset</a></li>
+                        <li><a href="#portfolio">Proyek</a></li>
                         <!-- <li><a href="#contact">Contact Us</a></li> -->
                     </ul>
                 </div>
@@ -36,8 +36,8 @@
     <ul class="sidenav" id="mobile-nav">
         <li><a href="#about">Profil</a></li>
         <!-- <li><a href="#clients">Clients (mau dihapus)</a></li> -->
-        <li><a href="#services">Hal yang Dikerjakan</a></li>
-        <li><a href="#portfolio">Portofolio</a></li>
+        <li><a href="#services">Skillset</a></li>
+        <li><a href="#portfolio">Proyek</a></li>
         <!-- <li><a href="#contact">Contact Us</a></li> -->
       </ul>
     <!-- akhir sidenav -->
@@ -73,7 +73,7 @@
     <section class="about scrollspy" id="about">
         <div class="container">
             <div class="row">
-                <h3 class="center light grey-text text-darken-3">Profil</h3>
+                <h3 class="center light grey-text text-darken-3"><b>Profil</b></h3>
                 <div class="col m6 light">
                     <h6>Saya adalah seorang Sarjana Matematika yang menekuni bidang <i>Computer Science</i> selama perkuliahan. Kegiatan sehari-hari yang saya lakukan adalah memperdalam ilmu di bidang <i>Computer Science</i> dengan membaca artikel dalam bentuk blog dan karya ilmiah. Melalui hal tersebut, saya menjadi lebih penasaran mengenai bidang <i>Computer Science</i> yang lebih dalam.</h6>
                 </div>
@@ -119,26 +119,50 @@
       <section id="services" class="services grey lighten-3 scrollspy">
           <div class="container">
               <div class="row">
-                  <h3 class="light center grey-text text-darken-3">Bidang yang Dikerjakan</h3>
+                  <h3 class="light center grey-text text-darken-3"><b><i>Skillset</i></b></h3>
                   <div class="col m4 s12 center">
                         <div class="card-panel center">
-                            <i class="material-icons medium">question_answer</i>
+                            <div class="skillset">
+                                <img src="img/portfolio/natural-language-processing.png" class="skill">
+                            </div>
                             <h5><i>Natural Languange Processing</i></h5>
                             <p>Melakukan analisis sentimen, pemodelan topik, klasifikasi teks, dan pengelompokkan teks.</p>
                         </div>
                   </div>
                   <div class="col m4 s12 center">
                         <div class="card-panel center">
-                            <i class="material-icons medium">pie_chart_outlined</i>
+                            <div class="skillset">
+                                <img src="img/portfolio/data.png" class="skill">
+                            </div>
                             <h5><i>Exploratory Data Analysis</i></h5>
                             <p>Melakukan visualisasi data sebelum diolah dalam model untuk mengetahui karakteristik data.</p>
                         </div>
                   </div>
                   <div class="col m4 s12 center">
                         <div class="card-panel center">
-                            <i class="material-icons medium">search</i>
+                            <div class="skillset">
+                                <img src="img/portfolio/data-mining (1).png" class="skill">
+                            </div>
                             <h5><i>Data Mining</i></h5>
                             <p>Pencarian <i>insight</i> melalui data dengan cara <i>supervised learning</i> seperti prediksi dan klasifikasi serta <i>unsupervised learning</i> seperti <i>clustering</i>.</p>
+                        </div>
+                  </div>
+                  <div class="col m6 s12 center">
+                        <div class="card-panel center">
+                            <div class="skillset">
+                                <img src="img/portfolio/deep-learning.png" class="skill">
+                            </div>
+                            <h5><i>Machine Learning</i></h5>
+                            <p>Bila jumlah data sedikit, akan digunakan metode <i>machine learning</i> untuk klasifikasi (<i>Naive Bayes, Decision Tree, SVM</i>), regresi, dan klaterisasi (<i>K-Means</i>).</p>
+                        </div>
+                  </div>
+                  <div class="col m6 s12 center">
+                        <div class="card-panel center">
+                            <div class="skillset">
+                                <img src="img/portfolio/machine-learning.png" class="skill">
+                            </div>
+                            <h5><i>Deep Learning</i></h5>
+                            <p>Sebagai contoh, menggunakan metode <i>Convolutional Neural Network</i> untuk <i>Computer Vision</i> dan metode <i>Long Short Term Memory</i> untuk <i>Natural Language Processing</i>.</p>
                         </div>
                   </div>
               </div>
@@ -148,7 +172,7 @@
       <!-- awal portfolio -->
       <section class="portfolio scrollspy" id="portfolio">
           <div class="container">
-              <h3 class="light center grey-text text-darken-3">Proyek yang Dikerjakan</h3>
+              <h3 class="light center grey-text text-darken-3"><b>Proyek</b></h3>
               <div class="judul center">
                 <h5>Analisis Sentimen pada Komentar Terhadap Kebijakan Perjalanan Domestik yang Dikelompokkan Menggunakan Metode <i>Self-Organizing Maps</i></h5>
               </div>
@@ -168,7 +192,18 @@
                     <img src="img/portfolio/chatbot.jpg" class="responsive-img portofolio">
                 </div>
                 <div class="penjelasan col m6 s12">
-                    <p><i>Chatbot</i> adalah sebuah program komputer berbasis AI (Artificial Intelligence) yang dapat mensimulasikan percakapan layaknya manusia. Teknologi ini dikenal sebagai asisten digital yang dapat memahami dan memproses permintaan pengguna serta dapat memberikan jawaban yang relevan dengan cepat. Proyek ini merupakan proyek pribadi saya yang terinspirasi dari <b><a href="https://towardsdatascience.com/how-to-build-your-own-chatbot-using-deep-learning-bb41f970e281" class="poster center" target="_blank">blog ini</a></b> yang dimodifikasi pada model <i>deep learning</i> yang digunakan dan penggunaan <i>chatbot</i>. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1ffySL-pqkkbO8i4ICkZoXdHxRVNM6sT1/view?usp=sharing" class="poster center" target="_blank">poster</a></b> dan <b><a href="https://drive.google.com/file/d/17dkE8nbcL1e4HY8aCpFF9JXEtWDnajI-/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Chatbot-Sederhana/blob/main/Simple_Chatbot.ipynb" class="code center" target="_blank">disini</a></b>.</p>
+                    <p><i>Chatbot</i> adalah sebuah program komputer berbasis AI (Artificial Intelligence) yang dapat mensimulasikan percakapan layaknya manusia. Teknologi ini dikenal sebagai asisten digital yang dapat memahami dan memproses permintaan pengguna serta dapat memberikan jawaban yang relevan dengan cepat. Proyek ini merupakan proyek pribadi saya yang terinspirasi dari <b><a href="https://towardsdatascience.com/how-to-build-your-own-chatbot-using-deep-learning-bb41f970e281" class="poster center" target="_blank">blog ini</a></b> yang dimodifikasi pada model <i>deep learning</i> yang digunakan dan penggunaan <i>chatbot</i>. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1ffySL-pqkkbO8i4ICkZoXdHxRVNM6sT1/view?usp=sharing" class="poster center" target="_blank">poster</a></b> dan <b><a href="https://drive.google.com/file/d/1KZ7Y_HXP5fv-9xlpFdf1n4QC1PNCve4E/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/Chatbot-Sederhana/blob/main/Simple_Chatbot.ipynb" class="code center" target="_blank">disini</a></b>.</p>
+                </div>
+              </div>
+              <div class="judul center">
+                <h5>Perangkuman Teks</h5>
+              </div>
+              <div class="row">
+                <div class="project col m6 s12">
+                    <img src="img/portfolio/rangkum.svg" class="responsive-img portofolio">
+                </div>
+                <div class="penjelasan col m6 s12">
+                    <p>Salah satu aplikasi dari bidang NLP adalah perangkuman teks. Perangkuman teks berguna untuk mempersingkat teks yang panjang namun tetap memiliki inti yang sama. Terdapat 2 jenis perangkuman teks, yaitu ekstraktif (menyusun kata-kata penting dari teks) dan abstraktif (parafrase teks). Proyek ini merupakan proyek pribadi yang mengimplementasikan metode BERT, GPT, dan TFIDF untuk merangkum teks secara ekstraktif dimana mengambil kata penting yang disusun menjadi satu kalimat. Penjelasan lebih lanjut untuk proyek ini dapat dilihat pada <b><a href="https://drive.google.com/file/d/1Aj_MVWfrjeBJdwHRf4srxbsypFHDwLHY/view?usp=sharing" class="poster center" target="_blank">poster</a></b> dan <b><a href="https://drive.google.com/file/d/17dkE8nbcL1e4HY8aCpFF9JXEtWDnajI-/view?usp=sharing" class="video center" target="_blank">video</a></b> serta <i>source code</i> dapat diakses <b><a href="https://github.com/Adrianus-Bagas/PerangkumanTeks/blob/main/Text_Summarization.ipynb" class="code center" target="_blank">disini</a></b>.</p>
                 </div>
               </div>
           </div>
