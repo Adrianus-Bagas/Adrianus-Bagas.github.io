@@ -57,8 +57,8 @@ section, footer{
     width: 50px;
     text-align: center;
     text-decoration: none;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
 }
 .fa-solid {
     padding: 5px;
@@ -70,6 +70,9 @@ section, footer{
 .fa:hover {
     opacity: 0.7;
 }
+.awal:hover {
+    opacity: 0.7;
+}
 .skillset .skill{
     font-size: 30px;
     width: 60px;
@@ -79,6 +82,15 @@ section, footer{
 }
 img{
     filter: grayscale(100%);
+}
+.tableau .skill{
+    width: 105px;
+}
+.expand{
+    width: 100px;
+}
+.proyek{
+    padding: 20px;
 }
 /* .email:hover {
     opacity: 0.7;
